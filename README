@@ -1,0 +1,31 @@
+EXPLICACION DEL EJEMPLO
+
+Una empresa organizadora de conciertos musicales nos solicita
+crear una aplicacion para la venta de tickets de dos conciertos
+que realizara en el pais. En dichos conciertos se presentaran
+la banda de metal Mastodon y la popstar Rihanna.
+
+Todos los tickets poseen tres datos en comun:
+
+	1- Codigo
+	2- Nombre del Artista
+	3- Precio
+
+Ademas de eso, la valoracion del precio del ticket esta basado
+en la edad del comprador. Si el comprador tiene una edad menor de 15, pagara el 30% del valor neto del ticket.
+
+Sin embargo, para el concierto de Rihanna, se tomara en cuenta
+el tipo de asiento considerando siempre la edad del comprador.
+
+Tipos de Asiente:
+
+	1- X: Campo.		50% del precio neto
+	2- Y: Sol y silla.	80% del precio neto
+	3- Z: Sombra y Silla.	Precio neto
+
+Tambien debemos registrar ese tipo de asiento en el ticket.
+
+Por otro lado, para el concierto de Mastodon no hay mucha com-
+plicacion, la valoracion del precio es la misma basada por la
+edad y se agregaria un dato adicional al ticket que es el nom-
+bre del tour.
